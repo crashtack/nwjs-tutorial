@@ -1,0 +1,18 @@
+$ npm install nw
+
+create an application directory
+  mkdir sample-new-v0.1.0-win64
+
+cp the content of nwjs-v0.15.3-win-x64 into application directory
+
+// zip up the relevent project files into package.nw
+  zip -r package.nw package.json index.html styles  // what ever directorys you have but not node_modules
+
+cp package.nw into your application directory
+  cp package.nw /home/banksd/Documents/Projects/301/inclass/sample-new-v0.1.0-win64/cp package.nw /home/banksd/Documents/Projects/301/inclass/sample-new-v0.1.0-win64/
+
+rename the nw.exe file to the name of your application
+  mv nw.exe my-super-cool-app-v0.1.0-win64.exe
+
+zip up the entire apps directory for deplyment
+  zip -r sample-new-v0.1.0.zip sample-new-v0.1.0

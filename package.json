@@ -4,7 +4,15 @@
   "description": "nwjs tutorial!",
   "main": "index.html",
   "scripts": {
-    
+    "start":"nw"
+  },
+  "window": {
+    "title": "Aample NW.js App",
+    "toolbar": false,
+    "fullscreen": false,
+    "width": 800,
+    "height": 400,
+    "resizeable": false
   },
   "repository": {
     "type": "git",
